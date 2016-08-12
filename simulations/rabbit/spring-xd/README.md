@@ -3,7 +3,7 @@ Distributed Spring XD with RabbitMQ Clustering
 
 This guide is for helping set up Spring XD with a RabbitMQ Cluster for MQTT, AMQP, and Message Bus. It also has the initial hooks for the Message Simulator to help test your RabbitMQ Cluster that is powering Spring XD.
 
-![Distributed Spring XD with RabbitMQ Clustering](http://levvel.io/wp-content/uploads/2015/11/Spring-XD-Distributed-Environment-with-RabbitMQ-Clustering.png)
+![Distributed Spring XD with RabbitMQ Clustering](http://cdn.levvel.io/blog_content/Spring-XD-Distributed-Environment-with-RabbitMQ-Clustering.png)
 
 ### Installation
 
