@@ -4,7 +4,7 @@ echo ""
 echo "Displaying Cluster Bindings"
 echo ""
 
-rabbitmqadmin list bindings source destination routing_key
+rabbitmqadmin rabbitmqadmin --host=rabbit1 --port=15672 --username=guest1 --password=guest1 list bindings source destination routing_key
 
 echo ""
 

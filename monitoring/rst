@@ -4,7 +4,7 @@ echo ""
 echo "Running Cluster Status"
 echo ""
 
-rabbitmqadmin list nodes name type running
+rabbitmqadmin --host=rabbit1 --port=15672 --username=guest1 --password=guest1 list nodes name type running
 
 echo ""
 
