@@ -99,15 +99,15 @@
         "PauseFile": "/tmp/pause_test_xd_3",
         "Rabbit": {
             "Account": {
-                "Password": "guest1",
-                "User": "guest1"
+                "Password": "guest",
+                "User": "guest"
             },
             "BrokerAddress": [
                 "rabbit1",
                 "rabbit2",
                 "rabbit3"
             ],
-            "BrokerURL": "amqp://guest1:guest1@rabbit1:5672/%2F?connection_attempts=3&heartbeat_interval=3600",
+            "BrokerURL": "amqp://guest:guest@rabbit1:5672/%2F?connection_attempts=3&heartbeat_interval=3600",
             "Name": "SinkConsumer0"
         },
         "ResetAll": false,

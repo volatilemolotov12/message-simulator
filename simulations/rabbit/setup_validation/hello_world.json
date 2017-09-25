@@ -10,10 +10,10 @@
         "Rabbit"    : {
             "Name"          : "Hello_World_Pub",
             "BrokerAddress" : [ "rabbit1", "rabbit2", "rabbit3" ],
-            "BrokerURL"     : "amqp://guest1:guest1@rabbit1:5672/%2F?connection_attempts=3&heartbeat_interval=3600",
+            "BrokerURL"     : "amqp://guest:guest@rabbit1:5672/%2F?connection_attempts=3&heartbeat_interval=3600",
             "Account"       : {
-                              "User"        : "guest1",
-                              "Password"    : "guest1"
+                              "User"        : "guest",
+                              "Password"    : "guest"
             }
         },
         "Consumers" : {},

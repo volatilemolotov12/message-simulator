@@ -279,8 +279,8 @@ spring:
    addresses: rabbit1:5672
    adminAddresses: http://rabbit1:15672
    nodes: rabbit@rabbit1
-   username: guest1
-   password: guest1
+   username: guest
+   password: guest
    virtual_host: /
    useSSL: false
    sslProperties:
