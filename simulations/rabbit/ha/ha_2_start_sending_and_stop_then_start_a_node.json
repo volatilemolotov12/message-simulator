@@ -210,8 +210,7 @@
                             "Host"          : "rabbit3",
                             "User"          : "root",
                             "Commands"      : [
-                                                "/usr/bin/ssh root@rabbit3 \"/sbin/service rabbitmq-server stop\" ",
-                                                "/usr/bin/ssh root@rabbit3 \"/sbin/service rabbitmq-server start\" "
+                                                "/usr/bin/ssh root@rabbit3 \"/bin/sh start.sh genCluster\" "
                                             ],
                             "Excepted"      : {
                                                 "Nodes" : [
